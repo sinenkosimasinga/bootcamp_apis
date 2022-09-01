@@ -1,0 +1,41 @@
+.message{
+    padding: 1em;
+    background-color: lightgreen;
+    margin-bottom: 1em;
+}
+.cont{
+    padding: 0.5em;
+    margin: 0.1em;
+    font-style: italic;
+    color: green;
+}
+.input > label{
+    display: inline-block;
+    /* width: 15em; */
+    padding: 0.5em;
+    font-weight: bold;
+}
+.input > input[type="text"]{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.widget{
+    flex: 1;
+    border: 1px solid lightgray;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+h1{
+    text-align: center;
+    background-color: gray;
+    border-radius: 0.5em;
+}
+body{
+    background-color: white;
+}
+@media(min-width:1050px){
+    .widgets{
+        display: flex;
+    }
+}
